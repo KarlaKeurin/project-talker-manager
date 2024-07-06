@@ -19,6 +19,7 @@ const validateLoginData = (req, res, next) => {
   return next();
 };
 
+
 module.exports = {
   validateLoginData,
 };
